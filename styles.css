@@ -3,55 +3,104 @@ body{
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: 'roboto', sans-serif;
 }
 
+/*--------Header---------*/
+
 .header{
+    padding: 0;
     background-color: #1f2937;
-    font-family: 'roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    padding: 10px 192px 0px 192px;
+    padding: 10px 200px 0 200px;
 }
 
 .top-items{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
-}
-.logo{
-    font-size: 24px;
-    font-weight: 700;
-    color: #f9faf8;
+    margin-bottom: 60px;
 }
 
-.secondary-text{
-    font-size: 18px;
-    color: #e5e7eB;
+.links{
+    display: flex;
+    gap: 20px;
 }
 
 .items{
     display: flex;
-    gap: 15px;
-    margin-bottom: 48px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
 }
 
 .main-text{
     font-size: 48px;
-    font-weight: 900;
     color: #f9faf8;
+    font-weight: 900;
 }
-.left-header button{
+
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header button{
     background-color: #3882f6;
-    border-radius: 8px;
-    padding: 4px 20px;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
 }
-
-.left-header{
+.header-text{
+    flex: 1;
+}
+.header-img{
+    background-color: beige;
     flex: 1;
 }
 
-.right-header{
-    border: 1px beige solid;
-    flex: 1;
+/*-------Information---------*/
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px;
+    margin: 60px 0;
 }
 
+.info-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 60px;
+}
+
+.info-boxes{
+    display: flex;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.box-img{
+    width: 150px;
+    height: 150px;
+    border: 2px #3882f6 solid;
+    border-radius: 10px;
+}
+
+.box-text{
+    width: 150px;
+}
