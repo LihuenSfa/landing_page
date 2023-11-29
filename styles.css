@@ -9,7 +9,6 @@ body{
 /*--------Header---------*/
 
 .header{
-    padding: 0;
     background-color: #1f2937;
     padding: 10px 200px 0 200px;
 }
@@ -47,6 +46,7 @@ body{
 .secondary-text{
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 0;
 }
 
 .header button{
@@ -103,4 +103,30 @@ body{
 
 .box-text{
     width: 150px;
+}
+
+/* --- quote --- */
+
+.quote{
+    padding: 60px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote p{
+    margin: 0;
+    padding: 0 120px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+    color: #1F2937;
+}
+
+.quote .person{
+    font-weight: bold;
+    align-self: flex-end;
 }
